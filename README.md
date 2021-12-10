@@ -1,7 +1,8 @@
 ## Table of Contents
 * [General info](#general-info)
 * [Code Explanation](#code-explanation)
-* [How to Compile & Run](#how-to-compile-&-run)
+* [Used Software and Module](#used-software-and-module)
+* [How to Compile & Run](#how-to-compile--run)
 
 ## General info
 This project is a web application to search the technical universities depending on the major that a student is looking for.
@@ -195,6 +196,30 @@ app.get('/read_data', (req, res) => {
 `app.get()` sends the *GET* response to specified route, */read_data*.
 In `app.get()`, the data are read, handled, and reformatted to fit the needs from main application, `home.js`.  
 
+## Used Software and Module
+
+### npm and node
+All software and components in this project are installed and implemented via `npm (npx)` and `node`.
+For example, the initial React application (template) is created via `npx create-react-app course-project`.
+The application then runs with `npm start`.
+The server also runs with `node server.js`. 
+
+### React
+The whole project is based on `React` that the project code is a bit different from typical JavaScript since `React` utilizes the `JSX` to make it easier to handle *HTML* and *CSS* in a single JS file. 
+
+Functions such as `componentDidMount()` and `callBackendAPI()` are all React built-in implementations that are used to communicate with `server.js` to receive data successfully.
+
+`React` is also compatible with a lot of `node modules` to work with such as `express` and `@mui` (material-ui).
+
+### XLSX
+`xlsx` module is solely used to read the data file in xlsx format, in `server.js`.
+
+### Express
+`express` module not only allows to host a server on the specified port, but also to parse, reformat, and send data to main application, `home.js`.
+
+### Material-UI
+Material-UI, `@mui`, allows to utilize *Autocomplete* to create a dynamic and responsive search bar that is customized to fit the purpose of the project.
+
 ## How to Compile & Run
 To run this project, `npm` and `node` must be installed in your environment.
 
@@ -219,3 +244,6 @@ You will also see any lint errors in the console.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Presentation Link
+
+Here is the link for the **Software usage tutorial presentation**.
