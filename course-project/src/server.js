@@ -10,7 +10,7 @@ const reader = require('xlsx')
 // Reading our dataset
 const file = reader.readFile('./data/QS_World_University_Rankings_by_Subject_2021_Excel.xlsx')
 
-app.listen(port, () => console.log('Listening on port ${port}'));
+app.listen(port, () => console.log(`Listening on port ${port}`));
 
 app.get('/read_data', (req, res) => {
     let data = []

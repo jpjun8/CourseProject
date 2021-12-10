@@ -27,7 +27,6 @@ class Home extends React.Component {
             ]
         };
 
-        this.handleSelect = this.handleSelect.bind(this);
         this.onSelect = this.onSelect.bind(this);
     }
 
@@ -52,60 +51,6 @@ class Home extends React.Component {
 
         return body;
     };
-
-    handleSelect = (e) => {
-        // console.log(e);
-        this.setState({
-            value: e
-        });
-
-        switch(e) {
-            case "Computer Science":
-                // console.log(this.state.data[1])
-                this.setState({
-                    sel: this.state.data[1]
-                }, () => {
-                    console.log(this.state.sel)
-                    // const elem = document.getElementById("p1");
-                    // elem.innerHTML = this.state.sel[0].H // rank 1's H value
-                });
-                break;
-            case "Chemical":
-                this.setState({
-                    sel: this.state.data[2]
-                });
-                break;
-            case "Civil & Structural":
-                this.setState({
-                    sel: this.state.data[3]
-                });
-                break;
-            case "Electrical & Electronic":
-                this.setState({
-                    sel: this.state.data[4]
-                });
-                break;
-            case "Mechanical, Aeronautical & Manufacturing":
-                this.setState({
-                    sel: this.state.data[5]
-                });
-                break;
-            case "Mineral & Mining":
-                this.setState({
-                    sel: this.state.data[6]
-                });
-                break;
-            case "Petroleum":
-                this.setState({
-                    sel: this.state.data[7]
-                });
-                break;
-            default:
-                this.setState({
-                    sel: this.state.data[0]
-                });
-        }   
-    }
 
     onSelect = (event, val) => {
         console.log(event, val);
@@ -157,15 +102,6 @@ class Home extends React.Component {
                     })
             }
         })
-
-        // switch(val) {
-        //     case "Computer Science & Information Systems":
-        //         this.setState({
-        //             sel: this.state.data[1]
-        //         }, () => {
-        //             console.log(this.state.sel)
-        //         })
-        // }
     }
 
     renderTableData() {
