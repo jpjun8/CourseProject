@@ -1,7 +1,7 @@
 ## Table of Contents
 * [General info](#general-info)
-* [Code Explanation](#explanation)
-* [How to Compile & Run](#how-to)
+* [Code Explanation](#code-explanation)
+* [How to Compile & Run](#how-to-compile-&-run)
 
 ## General info
 This project is a web application to search the technical universities depending on the major that a student is looking for.
