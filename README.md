@@ -3,6 +3,8 @@
 * [Code Explanation](#code-explanation)
 * [Used Software and Module](#used-software-and-module)
 * [How to Compile & Run](#how-to-compile--run)
+* [Contribution](#contribution)
+* [Presentation Link](#presentation-link)
 
 ## General info
 This project is a web application to search the technical universities depending on the major that a student is looking for.
@@ -223,21 +225,21 @@ Material-UI, `@mui`, allows to utilize *Autocomplete* to create a dynamic and re
 ## How to Compile & Run
 To run this project, `npm` and `node` must be installed in your environment.
 
-Navigate to the source directory
+- Navigate to the source directory
 
 > cd course-project/src
 
-Install `npm` modules such as `react`, `express`, etc. just in case that `package.json` is not updated.
+- Install `npm` modules such as `react`, `express`, etc. just in case that `package.json` is not updated.
 
 > npm install
 
-Run the server on the background to read data file and send data to the application, `home.js`.
+- Run the server on the background to read data file and send data to the application, `home.js`.
 
 I highly suggest to run this script in another terminal/prompt from the one that is running the next script since `server.js` has to be running while the main application is running.
 
 > node server.js
 
-Runs the app in the development mode.\
+- Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
@@ -245,10 +247,10 @@ You will also see any lint errors in the console.
 
 > npm start
 
-## Getting Started with Create React App
+## Contribution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I am the only member of my team that all materials (project code, written documentation, and presentation) are my original work.
 
-### Presentation Link
+## Presentation Link
 
 Here is the link for the **Software usage tutorial presentation**.
