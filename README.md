@@ -223,22 +223,27 @@ Material-UI, `@mui`, allows to utilize *Autocomplete* to create a dynamic and re
 ## How to Compile & Run
 To run this project, `npm` and `node` must be installed in your environment.
 
-> cd course-project/src
 Navigate to the source directory
 
-> npm install
+> cd course-project/src
+
 Install `npm` modules such as `react`, `express`, etc. just in case that `package.json` is not updated.
 
-> node server.js
+> npm install
+
 Run the server on the background to read data file and send data to the application, `home.js`.
+
 I highly suggest to run this script in another terminal/prompt from the one that is running the next script since `server.js` has to be running while the main application is running.
 
-> npm start
+> node server.js
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+> npm start
 
 ## Getting Started with Create React App
 
