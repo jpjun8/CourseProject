@@ -1,3 +1,5 @@
+# This is the Documentation for the Course Project.
+
 ## Table of Contents
 * [General info](#general-info)
 * [Code Explanation](#code-explanation)
