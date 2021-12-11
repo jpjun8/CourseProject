@@ -46,7 +46,7 @@ this.state = {
 ```
 These are constructors that are used widely in this application.
 `value`: used to grab the input value from *Autocomplete*.
-`data`: 
+`data`:
 - a variable to store the data passed from `server.js`.
 - also used to modify `sel` according to user input.
 `sel`: a variable to store only universities of *selected* subject.
@@ -109,7 +109,7 @@ this.setState({
 `onSelect` runs every time the user selects the input in *Autocomplete* bar.
 It only runs when the user input matches one of the options in `subjects`, i.e. "Computer Science". Custom value does not work, such as "abcde" or "testing".
 It saves the input value (one of the options in `subjects`) into `state.value`.
-The `state.sel` is then updated with the corresponding data according to this `state.value`. 
+The `state.sel` is then updated with the corresponding data according to this `state.value`.
 For example, when the user selects "Petroleum Engineering", the `state.value` is updated to "Petroleum Engineering". The `state.sel` then stores the corresponding sheet from `state.data`. In this case, the "Petroleum Engineering" xlsx sheet is stored in `state.data[7]`.
 
 - `renderTableData()`
@@ -204,10 +204,10 @@ In `app.get()`, the data are read, handled, and reformatted to fit the needs fro
 All software and components in this project are installed and implemented via `npm (npx)` and `node`.
 For example, the initial React application (template) is created via `npx create-react-app course-project`.
 The application then runs with `npm start`.
-The server also runs with `node server.js`. 
+The server also runs with `node server.js`.
 
 ### React
-The whole project is based on `React` that the project code is a bit different from typical JavaScript since `React` utilizes the `JSX` to make it easier to handle *HTML* and *CSS* in a single JS file. 
+The whole project is based on `React` that the project code is a bit different from typical JavaScript since `React` utilizes the `JSX` to make it easier to handle *HTML* and *CSS* in a single JS file.
 
 Functions such as `componentDidMount()` and `callBackendAPI()` are all React built-in implementations that are used to communicate with `server.js` to receive data successfully.
 
@@ -253,4 +253,5 @@ I am the only member of my team that all materials (project code, written docume
 
 ## Presentation Link
 
-Here is the link for the **Software usage tutorial presentation**.
+The **Software Usage Tutorial Presentation** is included in this repository that you can download it to see.
+I added voice overs for each slide to briefly explain the project and screenshots in the presentation that you might need to click the "voice" or "sound" button at the top left of each slide.
