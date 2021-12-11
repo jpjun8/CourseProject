@@ -20,7 +20,7 @@ class Home extends React.Component {
                 { label: "Chemical Engineering"},
                 { label: "Civil & Structural Engineering"},
                 { label: "Electrical & Electronic Engineering"},
-                { label: "Mechanical & Aeronautical & Manufacturing Engineering"},
+                { label: "Mechanical, Aeronautical & Manufacturing Engineering"},
                 { label: "Mineral & Mining Engineering"},
                 { label: "Petroleum Engineering"},
                 { label: "General Engineering & Technology"}
@@ -84,6 +84,8 @@ class Home extends React.Component {
                 case "Mechanical, Aeronautical & Manufacturing Engineering":
                     this.setState({
                         sel: this.state.data[5]
+                    }, () => {
+                        console.log(this.state.sel);
                     })
                     break;
                 case "Mineral & Mining Engineering":
